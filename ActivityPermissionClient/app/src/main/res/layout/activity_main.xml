@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bt_permission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳转PermissionActivity"
+        android:textAllCaps="false"/>
+
+
+    <Button
+        android:id="@+id/bt_special_component"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳转SpecialActivityByComponent"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/bt_other_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳转OtherAppByPkg"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/bt_uri_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳转OtherAppByUri"
+        android:textAllCaps="false"/>
+
+
+    <Button
+        android:id="@+id/bt_run_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查看某一app是否在后台运行"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/bt_test_reflect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试反射"
+        android:textAllCaps="false"/>
+</LinearLayout>
